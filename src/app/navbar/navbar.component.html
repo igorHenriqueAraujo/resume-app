@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" [routerLink]="['/about']">
+    <span class="d-block d-lg-none">Igor Henrique de Araújo</span>
+    <span class="d-none d-lg-block">
+        <ng-content></ng-content>
+        <br />
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../../assets/img/profile.jpg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/about']">{{ 'nav.about' | translate }}</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/experience']">{{ 'nav.experience' | translate }}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#education">{{ 'nav.education' | translate }}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#skills">{{ 'nav.skills' | translate }}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#interests">{{ 'nav.interests' | translate }}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#awards">{{ 'nav.awards' | translate }}</a>
+      </li>
+    </ul>
+  </div>
+</nav>

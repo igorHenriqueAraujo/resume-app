@@ -5,6 +5,10 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 import { AppComponent } from './app.component';
+import { AboutComponent } from './about/about.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { routing } from './app.routing';
+import { ExperienceComponent } from './experience/experience.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -12,11 +16,15 @@ export function HttpLoaderFactory(http: HttpClient) {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent,
+    NavbarComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    routing,
     TranslateModule.forRoot({
       loader: {
           provide: TranslateLoader,

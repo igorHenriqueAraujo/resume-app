@@ -32,9 +32,9 @@ export class AppComponent {
   public setTitle( lang: string) {
     
     if (lang.match('pt')){
-      this.titleService.setTitle( 'Igor Henrique de Araújo - Currículo' );
+      this.titleService.setTitle( 'Igor Henrique de Araújo - Perfil' );
     } else {
-      this.titleService.setTitle( 'Igor Henrique de Araújo - Resumé' );
+      this.titleService.setTitle( 'Igor Henrique de Araújo - Profile' );
     }
     
   }

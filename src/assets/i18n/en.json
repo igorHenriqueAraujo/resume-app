@@ -2,5 +2,13 @@
   "HOME": {
     "TITLE": "Hello Angular with ngx-translate!",
     "SELECT": "Change language"
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "interests": "Interests",
+    "awards": "Awards"
   }
 }
