@@ -9,6 +9,11 @@
       outline-color: lighten($primary, 15%);
     }
   }
+  .navbar-brand  .img-flags {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    //border: 0.3rem solid fade-out($white, 0.8);
+  }
 }
 
 @media (min-width: 992px) {
