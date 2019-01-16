@@ -42,9 +42,9 @@ export class NavbarComponent implements OnInit {
   public setTitle( lang: string) {
     
     if (lang.match('pt')){
-      this.titleService.setTitle( 'Igor Henrique de Araújo - Perfil' );
+      this.titleService.setTitle( 'Igor Henrique Araújo - Perfil' );
     } else {
-      this.titleService.setTitle( 'Igor Henrique de Araújo - Profile' );
+      this.titleService.setTitle( 'Igor Henrique Araújo - Profile' );
     }
     
   }
