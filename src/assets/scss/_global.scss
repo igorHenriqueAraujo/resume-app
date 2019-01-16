@@ -1,5 +1,9 @@
 // Global styling for this template
 
+@import "_mixins.scss";
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i');
+
 body {
   @include body-font;
   padding-top: 54px;

@@ -24,5 +24,44 @@
       "course": "Software Engineering [MBA]",
       "period": "2013 - 2015"
     }
+  },
+  "experience": {
+    "title": "Experience",
+    "prime": {
+      "name" : "Prime IT",
+      "function": "Software Engineer",
+      "activities": "Acting as architecture specialist, allocated on the BNDES, with following developer environment: Java EE (JSF, JSP, CDI, EJB), Websphere Application Server, Websphere Process Server, Websphere Integration Developer, Business Process Manager (BPM). I am one of those responsible for performing architecture validation, standards and code quality as well as refactoring them for adaptation to customer developer patterns and TDD practices. <br><br>Worked assembling and validating reponsive Web / Mobile architecture using Angular 4 with backend in Spring Boot providing Restful services for new Bradesco development architecture.",
+      "period": "April 2015 - Present"
+    },
+    "bemobi": {
+      "name" : "Bemobi",
+      "function": "Senior Analyst Developer / Tech Leader",
+      "activities": "Working with Value Added Services (VAS) integration solutions from Telecom operators, mobile subscriber services and purchase of standalone media. With responsibility for creating new services and improvements in integration platforms. <br><br> Main Environment: Java, Spring, Spring MVC, Hibernate, Camel, EJB. <br><br> Architecture jobs: Deployment of a URL Shortener and creation of a client project for the same API for communication of other company projects.<br> Communication clients projects with company partners.<br> API deployment for communication with Google Analytics and abstraction of usual company features.<br><br> I started and created the architecture of a project with Drools to implement a rule engine for use in all company services, the project was continued by the team and put into production later.<br><br> Main Company Platforms:<br><br> Subscription - Platform responsible for performing the subscription cycle in a certain service (Sign, renew and cancel).<br><br> Infosender - Platform responsible for firing SMSs from content, news broadcasts and advertisements, urgent news and others.<br><br> MUM - Platform responsible for communicating with the operator's VAS for receiving and sending SMS and charging for services.<br><br> Bemobi API - API developed internally for use of company resources by content partners and services.<br><br>  INPO - Platform that functions as a \"state machine\" that has the responsibility of checking the text sent by the user in the SMS and responding accordingly.",
+      "period": "June 2013 - March 2015"
+    },
+    "avanti": {
+      "name" : "Avanti Prima",
+      "function": "JEE Development Consultant",
+      "activities": "Consulting with jCompany and JBoss Server AS in the SPO project - Professor On-Line System, and in SIEXT - Extension System of UERJ.<br><br>PREVI consulting and mentoring services with the JBoss Seam framework using DDD and CDI-based architecture and JBoss EAP 5.<br><br>Mentoring in BrazilCap Self-Service System with JBoss Seam and Websphere.<br><br>Development of BNDES external access systems using Websphere bus technology.",
+      "period": "February 2012 - April 2013"
+    },
+    "elo": {
+      "name" : "EloSoft / Prima Informática",
+      "function": "JEE Developer",
+      "activities": "System GAB2G - TRT12<br>Cabinets 2 Degree - Regional Labor Court of the 12 Region with jCompany<br>Contract System<br>Portfolio System<br>In-house systems using jCompany<br>Fiscal Auditor - CONSISTEM of Jaraguá do Sul, using jCompany<br>Research and development studies with jBoss Seam, EJB3, Web Services REST and Android for future projects of the company.",
+      "period": "February 2011 - February 2012"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "dev": "Development",
+    "and": "and",
+    "tools": "Build, Code Validation and Continuous integration Tools",
+    "servers": "Servers",
+    "method": "Methodologies",
+    "db": "Databases",
+    "patterns": "Patterns and Architecture",
+    "cloud": "Cloud",
+    "others": "Others Languages"
   }
 }
