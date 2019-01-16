@@ -4,12 +4,25 @@
     "experience": "Experiência",
     "education": "Formação",
     "skills": "Habilidades",
-    "interests": "Interesses",
+    "testimony": "Depoimentos",
     "awards": "Conquistas"
   },
   "about": {
     "brazil" : "Brasil",
     "job": "Arquiteto de Software",
     "me" : "Analista, desenvolvedor e arquiteto de soluções baseadas em Java e suas APIs e Frameworks. Conhecimentos em NodeJS, AngularJS e Angular 2 e versões superiores, bancos de dados SQL e NoSQL e conhecimento básico em cloud com AWS. Conhecimento de padrões de arquitetura SOA, DDD, CQRS, TDD.\n Experiência em desenvolvimento de soluções baseadas em microserviços.\n Com experiência gerencial em outras atividades de negócio e liderança de equipes já na carreira tecnológica.\n Entusiasta de novas tecnologias, valorizo o trabalho em equipe e o compartilhamento do conhecimento, sempre atento ao que o mercado traz de novo em soluções tecnológicas.\n Valorizo o ambiente de trabalho como um todo, desde o entrosamento entre a equipe, projetos em andamento até a estrutura física do local e qualidade de vida oferecidos no trabalho."
+  },
+  "education": {
+    "title": "Formação",
+    "unipar": {
+      "name": "Universidade Paranense - UNIPAR",
+      "course": "Sistemas de Informação [GRADUAÇÃO]",
+      "period": "2007 - 2010"
+    },
+    "ufrj": {
+      "name": "Universidade Federal do Rio de Janeiro - UFRJ",
+      "course": "Engenharia de Software [MBA]",
+      "period": "2013 - 2015"
+    }
   }
 }

@@ -10,6 +10,10 @@ import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { routing } from './app.routing';
 import { ExperienceComponent } from './experience/experience.component';
+import { EducationComponent } from './education/education.component';
+import { SkillsComponent } from './skills/skills.component';
+import { AwardsComponent } from './awards/awards.component';
+import { TestimonyComponent } from './testimony/testimony.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -20,7 +24,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     AboutComponent,
     NavbarComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    EducationComponent,
+    SkillsComponent,
+    AwardsComponent,
+    TestimonyComponent
   ],
   imports: [
     BrowserModule,
