@@ -9,16 +9,16 @@ import { Title } from '@angular/platform-browser';
 })
 export class AboutComponent implements OnInit {
 
-  private name: string;
-  private lastName: string;
-  private email: string;
-  private location: string;
-  private phoneNumber: string;
-  private linkedin: string;
-  private github: string;
-  private twitter: string;
-  private urlPdfPT: string;
-  private urlPdfEn: string;
+  public name: string;
+  public lastName: string;
+  public email: string;
+  public location: string;
+  public phoneNumber: string;
+  public linkedin: string;
+  public github: string;
+  public twitter: string;
+  public urlPdfPT: string;
+  public urlPdfEn: string;
 
   constructor(public translate: TranslateService, private titleService: Title) { }
 
