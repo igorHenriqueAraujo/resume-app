@@ -63,5 +63,25 @@
     "patterns": "Padrões e Arquiteturas",
     "cloud": "Nuvem",
     "others": "Outras Linguagens"
+  },
+  "awards": {
+    "title": "Conquistas",
+    "course": "Cursos",
+    "courses": [
+      "API RESTful com Spring Boot e Java 8 ",
+      "Build A Web App With Spring Framework and Angular 2 - Udemy Academy.",
+      "AWS - Curso Preparatório para Certificação Developer - Udemy Academy.",
+      "Mongo, Express, Angular e Node: Primeira Aplicação do Zero - Udemy Academy.",
+      "JB248 JBoss Application Administration.",
+      "Oficina de Modelagem Orientada a Objetos (UML) UNIPAR/PR",
+      "Programação em Java para Web (JSF/JSP/Hibernate/Postgresql) - UNIPAR/PR.",
+      "Programação para Web com PHP.",
+      "jCompany Developer Suite."
+    ],
+    "language": "Idiomas",
+    "languages": [
+      "Português Fluente",
+      "Inglês Avançado"
+    ] 
   }
 }

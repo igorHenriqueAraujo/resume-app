@@ -63,5 +63,25 @@
     "patterns": "Patterns and Architecture",
     "cloud": "Cloud",
     "others": "Others Languages"
+  },
+  "awards": {
+    "title": "Awards",
+    "course": "Courses",
+    "courses": [
+        "RESTful API with Spring Boot and Java 8",
+    		"Build A Web App With Spring Framework and Angular 2 - Udemy Academy.",
+    	  "AWS -  Preparatory Training for Developer Certification - Udemy Academy.",
+        "Mongo, Express, Angular and Node: First Application from Zero - Udemy Academy.",
+        "JB248 JBoss Application Administration.",
+        "Workshop on Object Oriented Modeling (UML) UNIPAR/PR",
+        "Java Web Development (JSF/JSP/Hibernate/Postgresql) - UNIPAR/PR.",
+        "Web Development with PHP.",
+        "jCompany Developer Suite."
+    ],
+    "language": "Languages",
+    "languages": [
+      "Portuguese - native language",
+      "English - advanced"
+    ]
   }
 }
