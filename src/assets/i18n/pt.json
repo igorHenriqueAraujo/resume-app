@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "education": "Formação",
+    "skills": "Habilidades",
+    "testimony": "Depoimentos",
+    "awards": "Conquistas"
+  },
+  "about": {
+    "brazil" : "Brasil",
+    "job": "Arquiteto de Software",
+    "me" : "Analista, desenvolvedor e arquiteto de soluções baseadas em Java e suas APIs e Frameworks. Conhecimentos em NodeJS, AngularJS e Angular 2 e versões superiores, bancos de dados SQL e NoSQL e conhecimento básico em cloud com AWS. Conhecimento de padrões de arquitetura SOA, DDD, CQRS, TDD.\n Experiência em desenvolvimento de soluções baseadas em microserviços.\n Com experiência gerencial em outras atividades de negócio e liderança de equipes já na carreira tecnológica.\n Entusiasta de novas tecnologias, valorizo o trabalho em equipe e o compartilhamento do conhecimento, sempre atento ao que o mercado traz de novo em soluções tecnológicas.\n Valorizo o ambiente de trabalho como um todo, desde o entrosamento entre a equipe, projetos em andamento até a estrutura física do local e qualidade de vida oferecidos no trabalho."
+  },
+  "education": {
+    "title": "Formação",
+    "unipar": {
+      "name": "Universidade Paranense - UNIPAR",
+      "course": "Sistemas de Informação [GRADUAÇÃO]",
+      "period": "2007 - 2010"
+    },
+    "ufrj": {
+      "name": "Universidade Federal do Rio de Janeiro - UFRJ",
+      "course": "Engenharia de Software [MBA]",
+      "period": "2013 - 2015"
+    }
+  },
+  "experience": {
+    "title": "Experiência",
+    "prime": {
+      "name" : "Prime IT",
+      "function": "Arquiteto de Software",
+      "activities": "Atuando como especialista em arquitetura em clientes como BNDES, Bradesco e Cielo, englobando o seguinte ambiente: Java EE (JSF, JSP, CDI, EJB), Websphere Application Server, Websphere Process Server, Websphere Integration Developer, Business Process Manager (BPM), Weblogic, Microserviços. Sou um dos responsáveis por realizar a validação da arquitetura, padrões e qualidade de código bem como refatoração dos mesmos para adaptação aos padrões do cliente e práticas TDD. <br><br> Trabalhei montando e validando arquitetura Web/Mobile reponsivo utilizando Angular 4 com backend em Spring Boot disponibilizando serviços Restful para nova arquitetura de desenvolvimento do Bradesco.",
+      "period": "Abril 2015 - Atual"
+    },
+    "bemobi": {
+      "name" : "Bemobi",
+      "function": "Analista Desenvolvedor SR. / Líder Técnico",
+      "activities": "Trabalhando com soluções de integração com VAS (Value Added Services) de operadoras de Telecom, serviços mobile de assinaturas e compras de mídias avulsas.<br>Tendo como responsabilidade criação de novos serviços e melhorias em plataformas de integração.<br><br>Arquitetura principal: Java, Spring, Spring MVC, Hibernate, Camel, EJB.<br><br>Trabalhos de arquitetura: Implantação de um URL Shortener e criação de um client para a API do mesmo para comunicação de outros projetos da empresa.<br>Clients de comunicação com parceiros da empresa.<br>Implantação de API para comunicação com Google Analytics e abstração de recursos usuais da empresa.<br><br>Iniciei e criei a arquitetura de um projeto com Drools para implementação de um motor de regras para uso em todos os serviços da empresa, o projeto foi dado continuidade pela equipe e colocado em produção posteriormente.<br><br>Plataformas Principais da Empresa:<br><br>Subscription - Plataforma responsável por efetuar o ciclo de assinatura em um determinado serviço (Assinar, renovar e cancelar).<br><br>Infosender - Plataforma responsável por efetuar disparos de SMSs de conteúdo, broadcasts de noticias e propagandas, notícias urgentes, etc…<br><br>MUM - Plataforma responsável pela comunicação com o VAS da operadora para recebimento e envio de SMSs e tarifação de serviços.<br><br>API Bemobi - API desenvolvida internamente para utilização dos recursos da empresa por parte dos parceiros de conteúdo e serviços.<br><br>INPO - Plataforma que funciona como uma \"máquina de estados\" que tem como responsabilidade verificar o texto enviado pelo usuário no SMS e responder de acordo com o mesmo.",
+      "period": "Junho 2013 - Março 2015"
+    },
+    "avanti": {
+      "name" : "Avanti Prima",
+      "function": "Consultor de Desenvolvimento JEE",
+      "activities": "Consultoria com jCompany e JBoss Server AS no projeto SPO - Sistema Professor On-Line, e no SIEXT - Sistema de Extensão da UERJ. <br><br>Serviços de consultoria e mentoria na PREVI com o framework JBoss Seam utilizando arquitetura baseada em DDD e CDI e JBoss EAP 5. <br><br>Mentoria no Sistema de Auto-Atendimento da BrasilCap com JBoss Seam e Websphere.<br><br>Desenvolvimento de Sistemas de acessos externos do BNDES utilizando tecnologia de barramento.do Websphere.",
+      "period": "Fevereiro 2012 - Abril 2013"
+    },
+    "elo": {
+      "name" : "EloSoft / Prima Informática",
+      "function": "Desenvolvedor JEE",
+      "activities": "Sistema GAB2G - TRT12<br>Gabinetes 2 Grau - Tribunal Regional do Trabalho da 12 Região com jCompany<br>Sistema de Contrato<br>Sistema de Portfolio<br>Sistemas internos da empresa utilizando jCompany<br>Auditor Fiscal - Consistem Jaraguá do Sul, utilizando jCompany<br>Pesquisas e estudos sobre desenvolvimento com jBoss Seam, EJB3, Web Services REST e Android para projetos futuros da empresa.",
+      "period": "Fevereiro 2011 - Fevereiro 2012"
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "dev": "Desenvolvimento",
+    "and": "e",
+    "tools": "Ferramentas de Build, Validação de código e Integração contínua",
+    "servers": "Servidores",
+    "method": "Metodologias",
+    "db": "Bancos de Dados",
+    "patterns": "Padrões e Arquiteturas",
+    "cloud": "Nuvem",
+    "others": "Outras Linguagens"
+  },
+  "awards": {
+    "title": "Conquistas",
+    "course": "Cursos",
+    "courses": [
+      "API RESTful com Spring Boot e Java 8 ",
+      "Build A Web App With Spring Framework and Angular 2 - Udemy Academy.",
+      "AWS - Curso Preparatório para Certificação Developer - Udemy Academy.",
+      "Mongo, Express, Angular e Node: Primeira Aplicação do Zero - Udemy Academy.",
+      "JB248 JBoss Application Administration.",
+      "Oficina de Modelagem Orientada a Objetos (UML) UNIPAR/PR",
+      "Programação em Java para Web (JSF/JSP/Hibernate/Postgresql) - UNIPAR/PR.",
+      "Programação para Web com PHP.",
+      "jCompany Developer Suite."
+    ],
+    "language": "Idiomas",
+    "languages": [
+      "Português Fluente",
+      "Inglês Avançado"
+    ] 
+  },
+  "testimony": {
+    "title": "Depoimentos",
+    "subtitle": "O que as pessoas falam sobre mim?",
+    "testimonies": [
+      "\"Igor, profissional muito competente, conseguindo liderar equipes com facilidade extraindo o melhor dela, com ótima oratória e articulador consegue tirar o máximo de informação do cliente para a resolução dos problemas. Trabalhei com o Igor em três empresas, por onde trabalhamos ele deixou um bom legado. Muito atendo as novidades do mercado e sempre indicando bons materiais para estudos. Com experiência em arquiteturas e tecnologias diferentes, consegue apresentar as ferramentas certas para os problemas apresentados.\"",
+      "\"Em primeiro lugar o Igor é uma ótima pessoa! Grandes habilidades de comunicação, entendimento e raciocínio rápido também fazem parte de seu arsenal de qualidades. Trabalhar com o Igor foi uma ótima experiência, pois ele é um profissional extremamente competente e habilidoso. Gosta de aprender e executa suas tarefas com maestria.\"",
+      "\"O Igor é um cara extremamente comunicativo e de fácil relacionamento, tem muita facilidade em aprender, é um cara centrado, responsável e muito dedicado. Tudo isso faz dele um profissional inigualável e também um grande amigo.\"",
+      "\"O Igor possui uma excelente habilidade de comunicação, tem um ótimo potencial para soluções de problemas de maneira rápida e efetiva, pois tem um amplo conhecimento técnico.\""
+    ]
+  }
+}

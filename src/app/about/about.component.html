@@ -1,0 +1,31 @@
+<div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+        <h1 class="mb-0">{{name}}
+          <span class="text-primary">{{lastName}}</span>
+        </h1>
+        <h3 class="mb-0">
+            <span class="text-primary">{{'about.job' | translate}}</span>
+        </h3>        
+        <div class="subheading mb-5">{{location}} - {{ 'about.brazil' | translate}} · {{phoneNumber}} ·
+          <a href="mailto:{{email}}">{{email}}</a>
+        </div>
+        <p class="lead mb-5">{{'about.me' | translate}}</p>
+        <div class="social-icons">
+          <a href="{{linkedin}}" target="_blank">
+            <fa name="linkedin"></fa>
+          </a>
+          <a href="{{github}}" target="_blank">
+              <fa name="github"></fa>
+          </a>
+          <a href="{{twitter}}" target="_blank">
+              <fa name="twitter"></fa>
+          </a>
+          <a (click)="downloadPDF()" style="cursor: pointer">
+              <fa name="download"></fa>
+          </a>          
+        </div>
+      </div>
+    </section>
+    </div>
