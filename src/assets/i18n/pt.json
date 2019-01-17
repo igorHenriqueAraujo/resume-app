@@ -83,5 +83,15 @@
       "Português Fluente",
       "Inglês Avançado"
     ] 
+  },
+  "testimony": {
+    "title": "Depoimentos",
+    "subtitle": "O que as pessoas falam sobre mim?",
+    "testimonies": [
+      "\"Igor, profissional muito competente, conseguindo liderar equipes com facilidade extraindo o melhor dela, com ótima oratória e articulador consegue tirar o máximo de informação do cliente para a resolução dos problemas. Trabalhei com o Igor em três empresas, por onde trabalhamos ele deixou um bom legado. Muito atendo as novidades do mercado e sempre indicando bons materiais para estudos. Com experiência em arquiteturas e tecnologias diferentes, consegue apresentar as ferramentas certas para os problemas apresentados.\"",
+      "\"Em primeiro lugar o Igor é uma ótima pessoa! Grandes habilidades de comunicação, entendimento e raciocínio rápido também fazem parte de seu arsenal de qualidades. Trabalhar com o Igor foi uma ótima experiência, pois ele é um profissional extremamente competente e habilidoso. Gosta de aprender e executa suas tarefas com maestria.\"",
+      "\"O Igor é um cara extremamente comunicativo e de fácil relacionamento, tem muita facilidade em aprender, é um cara centrado, responsável e muito dedicado. Tudo isso faz dele um profissional inigualável e também um grande amigo.\"",
+      "\"O Igor possui uma excelente habilidade de comunicação, tem um ótimo potencial para soluções de problemas de maneira rápida e efetiva, pois tem um amplo conhecimento técnico.\""
+    ]
   }
 }

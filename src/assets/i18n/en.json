@@ -83,5 +83,15 @@
       "Portuguese - native language",
       "English - advanced"
     ]
+  },
+  "testimony": {
+    "title": "Testimonies",
+    "subtitle": "What the people are talking about me?",
+    "testimonies": [
+      "\"Igor, a very competent professional, able to lead teams with ease extracting the best of it, with great oratory and articulator can get the most information from the client to solve problems. I worked with Igor in three companies, where we worked he left a good legacy. I am very attentive to the market news and always indicating good materials for studies. With experience in different architectures and technologies, you can present the right tools for the problems presented.\"",
+      "\"Firstly, Igor is a great person! Great communication skills, understanding and quick thinking are also part of your arsenal of qualities. Working with Igor was a great experience because he is an extremely competent and skilled professional. He likes to learn and performs his tasks with mastery.\"",
+      "\"Igor is an extremely communicative and easy-going guy, he is very easy to learn, he is a focused, responsible and very dedicated guy. All this makes him an unrivaled professional and also a great friend.\"",
+      "\"Igor has excellent communication skills, has great potential for problem solving in a fast and effective way, as he has a broad technical knowledge.\""
+    ]
   }
 }
