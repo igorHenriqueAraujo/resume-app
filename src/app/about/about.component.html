@@ -9,20 +9,20 @@
             <span class="text-primary">{{'about.job' | translate}}</span>
         </h3>        
         <div class="subheading mb-5">{{location}} - {{ 'about.brazil' | translate}} · {{phoneNumber}} ·
-          <a href="mailto:{{email}}">{{email}}</a>
+          <a href="mailto:{{email}}" (click)="sendEventGA('about', 'click', 'Email')">{{email}}</a>
         </div>
         <p class="lead mb-5">{{'about.me' | translate}}</p>
         <div class="social-icons">
-          <a href="{{linkedin}}" target="_blank">
+          <a href="{{linkedin}}"  (click)="sendEventGA('about', 'click', 'Linkedin')"target="_blank">
             <fa name="linkedin"></fa>
           </a>
-          <a href="{{github}}" target="_blank">
+          <a href="{{github}}" (click)="sendEventGA('about', 'click', 'Github')" target="_blank">
               <fa name="github"></fa>
           </a>
-          <a href="{{twitter}}" target="_blank">
+          <a href="{{twitter}}" (click)="sendEventGA('about', 'click', 'Twitter')" target="_blank">
               <fa name="twitter"></fa>
           </a>
-          <a (click)="downloadPDF()" style="cursor: pointer">
+          <a (click)="downloadPDF()" (click)="sendEventGA('about', 'click', 'Download CV em PDF')" style="cursor: pointer">
               <fa name="download"></fa>
           </a>          
         </div>

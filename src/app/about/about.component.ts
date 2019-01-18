@@ -22,6 +22,9 @@ export class AboutComponent implements OnInit {
 
   constructor(public translate: TranslateService, private titleService: Title) { }
 
+  /**
+   * Inicia aqui algumas informações básicas
+   */
   ngOnInit() {
     this.name = "Igor Henrique";
     this.lastName = "Araújo";
@@ -35,6 +38,21 @@ export class AboutComponent implements OnInit {
     this.urlPdfEn = "../../assets/pdf/Igor_Henrique_Araujo_CV_en.pdf";
   }
 
+    /**
+   * Envia evento ao google analytics
+   */
+  public sendEventGA = (cat : string, action : string, label : string) => {
+    (<any>window).ga('send', 'event', {
+      eventCategory: cat,
+      eventLabel: label,
+      eventAction: action,
+      eventValue: 10
+    });
+  }
+
+  /**
+   * Verifica idioma corrente para download do PDF no idioma correspondente.
+   */
   public downloadPDF(){
     const lang = this.translate.currentLang;
     if (lang.match('pt')){
