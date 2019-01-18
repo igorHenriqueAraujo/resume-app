@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Title } from '@angular/platform-browser';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,7 @@ import { Title } from '@angular/platform-browser';
 export class AppComponent {
 
   //Inject dos services Translate para recursos i18n e Title para mudar o título dinâmicamente.
-  constructor(public translate: TranslateService, private titleService: Title) {
+  constructor(public translate: TranslateService, private titleService: Title, private router: Router) {
     //adiciona idiomas suportados
     translate.addLangs(['en', 'pt']);
     //informa inglês como idioma default
@@ -22,6 +23,15 @@ export class AppComponent {
     translate.use(browserLang.match(/en|pt/) ? browserLang : 'en'); 
     //informa o título dinamicamente de acordo com o idioma corrente.
     this.setTitle(translate.currentLang);
+
+    //captura eventos de redirecionamento de páginas para informar ao google analytics
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        (<any>window).ga('set', 'page', event.urlAfterRedirects);
+        (<any>window).ga('send', 'pageview');
+      }
+    });
+    
   }
 
 
