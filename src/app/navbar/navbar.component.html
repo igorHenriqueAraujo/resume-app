@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
   <span class="navbar-brand">
     <span class="d-block d-lg-none">
-        <a class="js-scroll-trigger a-link" [routerLink]="['/about']">Igor Henrique Araújo</a>
+        <a class="js-scroll-trigger a-link" (click)="sendEventGA('home', 'click', 'Cabeçalho Home')" [routerLink]="['/about']">Igor Henrique Araújo</a>
         &nbsp;&nbsp;
         <select #langSelect (change)="changeLanguage(langSelect.value)" class="selectpicker" data-style="btn-lang" data-width="25%">
             <option [selected]="'en' === translate.currentLang" data-content="<img class='img-fluid img-flags rounded-circle mx-auto mb-2' src='../../assets/img/usa-flag.png'>" alt="">en</option>
@@ -14,7 +14,7 @@
         <img class="img-fluid img-flags rounded-circle mx-auto mb-2" src="../../assets/img/usa-flag.png" alt="" (click)="changeLanguage('en')">
         <br />
         <a class="js-scroll-trigger" [routerLink]="['/about']">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../../assets/img/profile.jpg" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" (click)="sendEventGA('home', 'click', 'Imagem Perfil')" src="../../assets/img/profile.jpg" alt="">
         </a>
     </span>
   </span>
@@ -24,22 +24,22 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link js-scroll-trigger" [routerLink]="['/about']">{{ 'nav.about' | translate }}</a>
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/about']" (click)="sendEventGA('menu', 'click', 'Menu Sobre')">{{ 'nav.about' | translate }}</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link js-scroll-trigger" [routerLink]="['/experience']">{{ 'nav.experience' | translate }}</a>
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/experience']" (click)="sendEventGA('menu', 'click', 'Menu Experiencia')">{{ 'nav.experience' | translate }}</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link js-scroll-trigger" [routerLink]="['/education']">{{ 'nav.education' | translate }}</a>
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/education']" (click)="sendEventGA('menu', 'click', 'Menu Formação')">{{ 'nav.education' | translate }}</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link js-scroll-trigger" [routerLink]="['/skills']">{{ 'nav.skills' | translate }}</a>
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/skills']" (click)="sendEventGA('menu', 'click', 'Menu Habilidades')">{{ 'nav.skills' | translate }}</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link js-scroll-trigger" [routerLink]="['/awards']">{{ 'nav.awards' | translate }}</a>
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/awards']" (click)="sendEventGA('menu', 'click', 'Menu Conquistas')">{{ 'nav.awards' | translate }}</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link js-scroll-trigger" [routerLink]="['/testimony']">{{ 'nav.testimony' | translate }}</a>
+        <a class="nav-link js-scroll-trigger" [routerLink]="['/testimony']" (click)="sendEventGA('menu', 'click', 'Menu Depoimentos')">{{ 'nav.testimony' | translate }}</a>
       </li>
     </ul>
   </div>

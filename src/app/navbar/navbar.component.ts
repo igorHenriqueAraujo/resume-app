@@ -58,4 +58,16 @@ export class NavbarComponent implements OnInit {
     this.setTitle(this.translate.currentLang);
   }
 
+  /**
+   * Envia evento ao google analytics
+   */
+  public sendEventGA = (cat : string, action : string, label : string) => {
+    (<any>window).ga('send', 'event', {
+      eventCategory: cat,
+      eventLabel: label,
+      eventAction: action,
+      eventValue: 10
+    });
+  }
+
 }
