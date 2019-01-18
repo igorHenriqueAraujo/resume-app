@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-  <a class="navbar-brand js-scroll-trigger" [routerLink]="['/about']">
-    <span class="d-block d-lg-none">Igor Henrique Araújo
+  <span class="navbar-brand">
+    <span class="d-block d-lg-none">
+        <a class="js-scroll-trigger a-link" [routerLink]="['/about']">Igor Henrique Araújo</a>
         &nbsp;&nbsp;
         <select #langSelect (change)="changeLanguage(langSelect.value)" class="selectpicker" data-style="btn-lang" data-width="25%">
             <option [selected]="'en' === translate.currentLang" data-content="<img class='img-fluid img-flags rounded-circle mx-auto mb-2' src='../../assets/img/usa-flag.png'>" alt="">en</option>
@@ -12,9 +13,11 @@
         &nbsp;&nbsp;&nbsp;&nbsp;
         <img class="img-fluid img-flags rounded-circle mx-auto mb-2" src="../../assets/img/usa-flag.png" alt="" (click)="changeLanguage('en')">
         <br />
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../../assets/img/profile.jpg" alt="">
+        <a class="js-scroll-trigger" [routerLink]="['/about']">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../../assets/img/profile.jpg" alt="">
+        </a>
     </span>
-  </a>
+  </span>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

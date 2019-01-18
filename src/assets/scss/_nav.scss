@@ -12,7 +12,13 @@
   .navbar-brand  .img-flags {
     max-width: 1.5rem;
     max-height: 1.5rem;
+    cursor: pointer;
     //border: 0.3rem solid fade-out($white, 0.8);
+  }
+
+  .a-link {
+    color: $white;
+    text-decoration: none;
   }
 }
 
@@ -42,6 +48,7 @@
         max-width: 4rem;
         max-height: 4rem;
         border: 0.3rem solid fade-out($white, 0.8);
+        cursor: pointer;
       }
     }
     .navbar-collapse {
