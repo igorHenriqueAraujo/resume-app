@@ -10,7 +10,7 @@
   "about": {
     "brazil" : "Brasil",
     "job": "Arquiteto de Software",
-    "me" : "Analista, desenvolvedor e arquiteto de soluções baseadas em Java e suas APIs e Frameworks. Conhecimentos em NodeJS, AngularJS e Angular 2 e versões superiores, bancos de dados SQL e NoSQL e conhecimento básico em cloud com AWS. Conhecimento de padrões de arquitetura SOA, DDD, CQRS, TDD.\n Experiência em desenvolvimento de soluções baseadas em microserviços.\n Com experiência gerencial em outras atividades de negócio e liderança de equipes já na carreira tecnológica.\n Entusiasta de novas tecnologias, valorizo o trabalho em equipe e o compartilhamento do conhecimento, sempre atento ao que o mercado traz de novo em soluções tecnológicas.\n Valorizo o ambiente de trabalho como um todo, desde o entrosamento entre a equipe, projetos em andamento até a estrutura física do local e qualidade de vida oferecidos no trabalho."
+    "me" : "Analista, desenvolvedor e arquiteto de soluções baseadas em Java e suas APIs e Frameworks. Conhecimentos em NodeJS, AngularJS e Angular 2 e versões superiores, bancos de dados SQL e NoSQL e conhecimento básico em cloud com AWS. Conhecimento de padrões de arquitetura SOA, DDD, CQRS, TDD.\n Experiência em desenvolvimento de soluções baseadas em microserviços.\n Experiência consolidada como líder de equipe em vários projetos de clientes diversos e produtos internos da empresa.\n Entusiasta de novas tecnologias, valorizo o trabalho em equipe e o compartilhamento do conhecimento, sempre atento ao que o mercado traz de novo em soluções tecnológicas.\n Valorizo o ambiente de trabalho como um todo, desde o entrosamento entre a equipe, projetos em andamento até a estrutura física do local e qualidade de vida oferecidos no trabalho."
   },
   "education": {
     "title": "Formação",
@@ -68,6 +68,7 @@
     "title": "Conquistas",
     "course": "Cursos",
     "courses": [
+      "Do Zero ao Blockchain - Udemy Academy",
       "Docker: Ferramenta essencial para Desenvolvedores - Udemy Academy",
       "API RESTful com Spring Boot e Java 8 - Udemy Academy",
       "Build A Web App With Spring Framework and Angular 2 - Udemy Academy.",
@@ -83,7 +84,7 @@
     "languages": [
       "Português Fluente",
       "Inglês Avançado"
-    ] 
+    ]
   },
   "testimony": {
     "title": "Depoimentos",

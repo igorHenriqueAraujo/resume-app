@@ -10,7 +10,7 @@
   "about": {
     "brazil" : "Brasil",
     "job": "Software Engineer",
-    "me": "Analyst, developer and architect of Java-based solutions and their APIs and Frameworks. Knowledge in NodeJS, AngularJS and Angular 2 and superior versions, SQL and NoSQL databases and basic cloud knowledge with AWS. Knowledge in patterns like SOA, DDD, CQRS, TDD.\n With managerial experience in other business activities and leadership of teams in the technological career.\n Enthusiastic about new technologies, I value teamwork and knowledge sharing, always attentive to what the market have novelty to technological solutions.\n I value the all workplace, from the relationship between the team, projects in progress to the physical structure of the place and quality of life offered at work."
+    "me": "Analyst, developer and architect of Java-based solutions and their APIs and Frameworks. Knowledge in NodeJS, AngularJS and Angular 2 and superior versions, SQL and NoSQL databases and basic cloud knowledge with AWS. Knowledge in patterns like SOA, DDD, CQRS, TDD.\n Consolidated experience as a team leader in various customer projects and internal company products.\n Enthusiastic about new technologies, I value teamwork and knowledge sharing, always attentive to what the market have novelty to technological solutions.\n I value the all workplace, from the relationship between the team, projects in progress to the physical structure of the place and quality of life offered at work."
   },
   "education": {
     "title": "Education",
@@ -68,6 +68,7 @@
     "title": "Awards",
     "course": "Courses",
     "courses": [
+        "Zero to Blockchain - Udemy Academy",
         "Docker: Essencial Tool to Developers - Udemy Academy",
         "RESTful API with Spring Boot and Java 8 - Udemy Academy",
     		"Build A Web App With Spring Framework and Angular 2 - Udemy Academy.",
