@@ -7,11 +7,11 @@
         </h1>
         <h3 class="mb-0">
             <span class="text-primary">{{'about.job' | translate}}</span>
-        </h3>        
+        </h3>
         <div class="subheading mb-5">{{location}} - {{ 'about.brazil' | translate}} · {{phoneNumber}} ·
           <a href="mailto:{{email}}" (click)="sendEventGA('about', 'click', 'Email')">{{email}}</a>
         </div>
-        <p class="lead mb-5">{{'about.me' | translate}}</p>
+        <p class="lead mb-5" [innerHTML]="'about.me' | translate"></p>
         <div class="social-icons">
           <a href="{{linkedin}}"  (click)="sendEventGA('about', 'click', 'Linkedin')"target="_blank">
             <fa name="linkedin"></fa>
@@ -24,7 +24,7 @@
           </a>
           <a (click)="downloadPDF()" (click)="sendEventGA('about', 'click', 'Download CV em PDF')" style="cursor: pointer">
               <fa name="download"></fa>
-          </a>          
+          </a>
         </div>
       </div>
     </section>
